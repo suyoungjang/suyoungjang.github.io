@@ -9,8 +9,34 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Tue, 22 Dec 2020 14:40:44 GMT</pubDate>
+    <pubDate>Fri, 01 Jan 2021 00:51:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>test</title>
+      <link>https://suyoungjang.github.io/2021/01/01/test/</link>
+      <guid>https://suyoungjang.github.io/2021/01/01/test/</guid>
+      <pubDate>Fri, 01 Jan 2021 00:50:07 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;Hexo-Category-test&quot;&gt;&lt;a href=&quot;#Hexo-Category-test&quot; class=&quot;headerlink&quot; title=&quot;Hexo Category test&quot;&gt;&lt;/a&gt;Hexo Category test&lt;/h1&gt;&lt;p&gt;Hello </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="Hexo-Category-test"><a href="#Hexo-Category-test" class="headerlink" title="Hexo Category test"></a>Hexo Category test</h1><p>Hello Hexo</p>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Hexo/">Hexo</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/01/01/test/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
