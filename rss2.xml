@@ -9,8 +9,40 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Sun, 07 Feb 2021 14:15:17 GMT</pubDate>
+    <pubDate>Thu, 11 Feb 2021 13:25:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>고객생애가치(Customer Lifetime Value)</title>
+      <link>https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/</link>
+      <guid>https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/</guid>
+      <pubDate>Thu, 11 Feb 2021 13:30:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h3 id=&quot;고객생애가치-Customer-Lifetime-Value-란&quot;&gt;&lt;a href=&quot;#고객생애가치-Customer-Lifetime-Value-란&quot; class=&quot;headerlink&quot; title=&quot;고객생애가치 (Customer Lifetime Va</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="고객생애가치-Customer-Lifetime-Value-란"><a href="#고객생애가치-Customer-Lifetime-Value-란" class="headerlink" title="고객생애가치 (Customer Lifetime Value)란 ?"></a>고객생애가치 (Customer Lifetime Value)란 ?</h3><p>고객이 과거에 회사의 제품을 구매하거나 서비스 이용료로 지불했던 금액 또는 미래 예상 지불 금액을 기반으로 고객의 가치를 정의하는 것입니다. 즉, 단기적으로만 보지 않고 장기적 관점에서 고객의 가치를 평가하는 지표입니다.</p><h3 id="왜-중요할까"><a href="#왜-중요할까" class="headerlink" title="왜 중요할까?"></a>왜 중요할까?</h3><p>회사 입장에서는 모든 고객에게 집중할 수 없습니다. 그렇다면 고객 중에서도 회사 이익에 기여하는 부분이 큰 고객에게 집중하는 것이 비용대비 효율이 좋을 것입니다. </p><p>또한, 가치가 낮은 고객이 있다면 어떻게 하면 충성도를 높여서 가치가 높은 고객으로 전환 시킬지에 대한 아이디어도 얻을 수 있을 것입니다.</p><h3 id="CLV-계산방법"><a href="#CLV-계산방법" class="headerlink" title="CLV 계산방법"></a>CLV 계산방법</h3><p><a href="https://blog.performars.com/%EA%B5%AC%EB%8F%85%EA%B2%BD%EC%A0%9C-%EB%A7%88%EC%BC%80%ED%8C%85%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B3%A0%EA%B0%9D%EC%83%9D%EC%95%A0%EA%B0%80%EC%B9%98-%ED%99%9C%EC%9A%A9%EB%B2%95">원문</a></p><ul><li><strong>과거이력기반 (Historic)</strong><ul><li>개별 고객이 거래한 과거 구매 총가치 or 총이익의 합계 측정</li></ul></li></ul><blockquote><p>CLV(Historic) = (거래1 + 거래2 + 거래 3… + 거래 n) * 평균마진</p></blockquote><ul><li><strong>예측기반 (Predictive)</strong><ul><li>과거이력기반보다 더 많은 데이터를 사용하기 때문에 고객 생애주기 동안 회사에 제공할 총 가치를 나타내는 데 좋은 지표가 될 수 있음</li><li>가격, 할인 등의 변동을 고려할 때 정확한 예측을 결정하는 것은 어려울 수 있음</li></ul></li></ul><blockquote><p>CLV(Predictive) = ((월 평균 거래횟수 * 평균구매금액) * 평균 총마진) * 평균고객수명</p></blockquote><ul><li><p><strong>고객수명기반 (Lifespan)</strong></p><ul><li>고객가치와 고객 수명을 가지고 계산하는 방법</li><li>평균구매가치<ul><li>일정 기간 동안의 총 매출을 같은 기간 동안 발생한 구매 횟수로 나누기</li><li>총 매출 / 총 구매 횟수</li></ul></li><li>평균구매빈도<ul><li>위의 구매 횟수를 해당 기간 동안 구매한 고객수로 나누기</li><li>총 구매 횟수 / 총 구매 고객수</li></ul></li><li>평균고객가치<ul><li>평균구매가치 * 평균구매빈도</li></ul></li><li>평균고객수명<ul><li>고객들이 계속 구매하는 년 수의 평균값 계산</li></ul></li></ul><blockquote><p>CLV(Lifespan) = 평균고객가치 * 평균고객수명</p></blockquote></li><li><p><strong>동질집단기반 (Cohort)</strong></p><ul><li>유사한 특성을 가진 고객을 수집하고 그룹화함</li><li>여러 유형의 고객들 사이에서 결론을 도출하는데 유용함</li><li><img src="https://user-images.githubusercontent.com/35250329/107642142-d0a19f00-6cb7-11eb-9c5b-1ba8b2aa3c47.PNG" alt="cohort"></li></ul></li><li><p><strong>개인화기반 (Individual)</strong></p><ul><li><p>개인화된 CLV는 마케팅의 더 넓은 관점을 고려하는데 유용</p></li><li><p>이 CLV를 통해 어떤 마케팅 채널이 효율적인지, 누구를 타켓팅 해야하는지 등의 인사이트를 얻을 수 있음</p></li></ul></li></ul><h3 id="CLV-인사이트"><a href="#CLV-인사이트" class="headerlink" title="CLV 인사이트"></a>CLV 인사이트</h3><p><a href="https://www.andrewahn.co/marketing/customer-lifetime-value/">원문</a></p><ul><li>마케팅 활동을 통해 유치한 고객은 일반 고객들보다 CLV가 낮다<ul><li>마케팅 활동에 비용이 들어갔기 때문에 같은 질의 고객이어도 CLV가 낮음</li><li>마케팅 활동을 통해 수요가 창출된 고객은 고객 이탈율이 상대적으로 높음 <ul><li>e.g) 사은품으로 유입된 고객</li></ul></li></ul></li><li>제품 구입 빈도가 CLV에 가장 큰 영향을 끼친다<ul><li>제품 하나를 더 사게 하는 전략이 비싼 제품을 구입하게 하는 것보다 CLV 증가에 큰 효과가 있음</li></ul></li><li>같은 제품이라도 제품의 포지셔닝에 따라 CLV가 다르다<ul><li>고객의 의도에 맞게 마케팅을 하면 제품을 바꾸지 않고도 CLV를 바꿀 수 있음</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%B6%84%EC%84%9D-%EB%B0%A9%EB%B2%95%EB%A1%A0/">모바일 분석 방법론</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/LTV/">LTV</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/CLV/">CLV</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/%EB%A7%88%EC%BC%80%ED%8C%85/">마케팅</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>카카오 맵 API를 활용한 좌표 &lt;-&gt; 주소 변환</title>
