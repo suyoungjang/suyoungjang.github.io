@@ -9,8 +9,34 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Thu, 11 Feb 2021 13:25:17 GMT</pubDate>
+    <pubDate>Mon, 01 Mar 2021 11:25:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL - Algorithm - adjacent element</title>
+      <link>https://suyoungjang.github.io/2021/03/01/2021-03-01-algorithm-adjacent-element-check/</link>
+      <guid>https://suyoungjang.github.io/2021/03/01/2021-03-01-algorithm-adjacent-element-check/</guid>
+      <pubDate>Mon, 01 Mar 2021 11:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h3 id=&quot;알고리즘-지뢰찾기-문제를-풀다가-배운-것&quot;&gt;&lt;a href=&quot;#알고리즘-지뢰찾기-문제를-풀다가-배운-것&quot; class=&quot;headerlink&quot; title=&quot;알고리즘 지뢰찾기 문제를 풀다가 배운 것&quot;&gt;&lt;/a&gt;알고리즘 지뢰찾기 문제를 풀다가 배운</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="알고리즘-지뢰찾기-문제를-풀다가-배운-것"><a href="#알고리즘-지뢰찾기-문제를-풀다가-배운-것" class="headerlink" title="알고리즘 지뢰찾기 문제를 풀다가 배운 것"></a>알고리즘 지뢰찾기 문제를 풀다가 배운 것</h3><p>문제 출처: codesignal arcade intro 24</p><p>처음 접근은 반복문을 통해 현재 위치에서 +1 -1 해가며 주변에 지뢰가 있는지 확인했지만, 별도로 [-1, 0, 1] list를 loop에 넣어서 인근 element를 탐색하는 방법</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> [-<span class="number">1</span>, <span class="number">0</span>, <span class="number">1</span>]:</span><br><span class="line">    <span class="keyword">for</span> y <span class="keyword">in</span> [-<span class="number">1</span>, <span class="number">0</span>, <span class="number">1</span>]:</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Algorithm/">Algorithm</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/03/01/2021-03-01-algorithm-adjacent-element-check/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>고객생애가치(Customer Lifetime Value)</title>
@@ -29,8 +55,6 @@
       
       
       <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
-      
-      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%B6%84%EC%84%9D-%EB%B0%A9%EB%B2%95%EB%A1%A0/">모바일 분석 방법론</category>
       
       
       <category domain="https://suyoungjang.github.io/tags/LTV/">LTV</category>
