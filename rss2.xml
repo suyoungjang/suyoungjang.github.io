@@ -9,7 +9,7 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Wed, 24 Mar 2021 13:36:55 GMT</pubDate>
+    <pubDate>Wed, 24 Mar 2021 13:39:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -25,7 +25,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="JSON-JavaScript-Object-Notation"><a href="#JSON-JavaScript-Object-Notation" class="headerlink" title="JSON (JavaScript Object Notation)"></a>JSON (JavaScript Object Notation)</h3><p>json object는 key value pair로 이루어지고 { } 중괄호에 의해 둘러쌓여있습니다.</p><p><strong>json.loads()</strong></p><ul><li>json.loads()는 문자열을 받아서 json object를 return합니다.</li></ul><p><strong>json.dumps()</strong></p><ul><li>json.dumps()는 json object를 받아서 문자열을 return 합니다.</li></ul><p><img src="C:\Users\suyoung\AppData\Roaming\Typora\typora-user-images\image-20210324221333121.png" alt="image-20210324221333121"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="JSON-JavaScript-Object-Notation"><a href="#JSON-JavaScript-Object-Notation" class="headerlink" title="JSON (JavaScript Object Notation)"></a>JSON (JavaScript Object Notation)</h3><p>json object는 key value pair로 이루어지고 { } 중괄호에 의해 둘러쌓여있습니다.</p><p><strong>json.loads()</strong></p><ul><li>json.loads()는 문자열을 받아서 json object를 return합니다.</li></ul><p><strong>json.dumps()</strong></p><ul><li>json.dumps()는 json object를 받아서 문자열을 return 합니다.</li></ul><p><img src="https://user-images.githubusercontent.com/35250329/112316110-25402d00-8cee-11eb-840d-aad748f240c8.PNG" alt="json"></p>]]></content:encoded>
       
       
       <category domain="https://suyoungjang.github.io/categories/TIL/">TIL</category>
