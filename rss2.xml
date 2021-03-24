@@ -9,8 +9,34 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Mon, 01 Mar 2021 11:25:54 GMT</pubDate>
+    <pubDate>Wed, 24 Mar 2021 13:36:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Python - json.loads()와 json.dumps()의 차이</title>
+      <link>https://suyoungjang.github.io/2021/03/24/2021-03-24-json-load-dump/</link>
+      <guid>https://suyoungjang.github.io/2021/03/24/2021-03-24-json-load-dump/</guid>
+      <pubDate>Wed, 24 Mar 2021 13:30:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h3 id=&quot;JSON-JavaScript-Object-Notation&quot;&gt;&lt;a href=&quot;#JSON-JavaScript-Object-Notation&quot; class=&quot;headerlink&quot; title=&quot;JSON (JavaScript Object Notati</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="JSON-JavaScript-Object-Notation"><a href="#JSON-JavaScript-Object-Notation" class="headerlink" title="JSON (JavaScript Object Notation)"></a>JSON (JavaScript Object Notation)</h3><p>json object는 key value pair로 이루어지고 { } 중괄호에 의해 둘러쌓여있습니다.</p><p><strong>json.loads()</strong></p><ul><li>json.loads()는 문자열을 받아서 json object를 return합니다.</li></ul><p><strong>json.dumps()</strong></p><ul><li>json.dumps()는 json object를 받아서 문자열을 return 합니다.</li></ul><p><img src="C:\Users\suyoung\AppData\Roaming\Typora\typora-user-images\image-20210324221333121.png" alt="image-20210324221333121"></p>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Python/">Python</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/03/24/2021-03-24-json-load-dump/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL - Algorithm - adjacent element</title>
