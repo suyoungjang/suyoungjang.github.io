@@ -9,8 +9,36 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Wed, 24 Mar 2021 13:39:22 GMT</pubDate>
+    <pubDate>Sun, 28 Mar 2021 11:39:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Growth Hacking - 인프런 그로스해킹 1</title>
+      <link>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/</link>
+      <guid>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/</guid>
+      <pubDate>Sun, 28 Mar 2021 10:40:26 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h3 id=&quot;왜-그로스해킹을-공부하게-되었는지&quot;&gt;&lt;a href=&quot;#왜-그로스해킹을-공부하게-되었는지&quot; class=&quot;headerlink&quot; title=&quot;왜 그로스해킹을 공부하게 되었는지?&quot;&gt;&lt;/a&gt;왜 그로스해킹을 공부하게 되었는지?&lt;/h3&gt;&lt;p&gt;처음엔 </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="왜-그로스해킹을-공부하게-되었는지"><a href="#왜-그로스해킹을-공부하게-되었는지" class="headerlink" title="왜 그로스해킹을 공부하게 되었는지?"></a>왜 그로스해킹을 공부하게 되었는지?</h3><p>처음엔 그로스해킹이 무엇인지도 몰랐습니다. 업무 중에 유저 리텐션, Funnel 등 유저가 우리 서비스에 인입된 순간부터 이탈할 때까지의 여정을 데이터로 보는 경우가 종종 있었습니다. 이때마다 필요한 개념들을 각각 공부하다보니 이런 것들을 큰 틀에서 다루는 분야는 없을까 궁금했고, 그로스해킹이 그런 분야임을 알게되었습니다. </p><p>지금 제가 일하고 있는 도메인에서 그로스해킹이 밀접하게 연관이 있다고 볼 수는 없지만 대부분의 앱, 웹 기반 서비스를 제공하는 회사의 경우 이 분야의 지식들을 많이 활용하는 것을 알게 되었고 (분석가 채용 공고등을 통해) 저의 커리어를 위해서도 미리 준비해서 나쁠 것은 없겠다고 생각했습니다. (+ ad-hoc으로 보고 활용했던 개념들 정리) </p><p>그로스해킹에 관련된 지식 외에도 지표 정의 및 활용에 대한 꿀팁들도 상당히 유익했습니다. 이 부분은 데이터 분석을 처음 접하는 분 보다는 실무를 어느정도 해보신 분이 들으면 더 좋을 것 같은 내용이었습니다 ! </p><p>인프런 강의명: <strong>그로스해킹 - 데이터와 실험을 통해 성장하는 서비스를 만드는 방법</strong></p><h3 id="그로스-해킹이란"><a href="#그로스-해킹이란" class="headerlink" title="그로스 해킹이란?"></a>그로스 해킹이란?</h3><ul><li>디자이너, 개발자, 분석가 등 데이터 기반 성장에 유관한 직군의 사람들과 핵심 지표를 중심으로 실험-학습 과정을 반복하면서 제품/서비스 성장시키는 것</li></ul><h3 id="PMF-Product-Market-Fit-그로스-실험의-전제-조건"><a href="#PMF-Product-Market-Fit-그로스-실험의-전제-조건" class="headerlink" title="PMF (Product Market Fit) - 그로스 실험의 전제 조건"></a>PMF (Product Market Fit) - 그로스 실험의 전제 조건</h3><ul><li>고객 접점없는 제품, 서비스 개발은 성공하기 어려움</li><li>타겟하는 시장에서 우리 제품, 서비스를 활용하면 어떤 문제를 해결할 수 있는지?<br>또한, 이 문제가 꼭 해결해야 할 가치가 있는 문제인지 확인이 필요</li></ul><h3 id="PMF-를-확인을-위한-지표"><a href="#PMF-를-확인을-위한-지표" class="headerlink" title="PMF 를 확인을 위한 지표"></a>PMF 를 확인을 위한 지표</h3><ul><li>Retention<ul><li>시간이 지남에 따라 리텐션이 안정적으로 유지되는가?</li></ul></li><li>Conversion<ul><li>주요 이벤트 전환율 (e.g 가입, 결제) 추이</li></ul></li><li>NPS<ul><li>제품/서비스 적극적 추천 그룹과 비추천 그룹간 비율로 계산된 지표</li><li>추천 의향을 점수로 물어보는 질문 외에 어떤 이유로 그런 점수를 줬는지 알 수 있는 설문들을 추가한다면 비추천 그룹 -&gt; 소극적 추천 그룹 or 소극적 추천 그룹 -&gt; 적극적 추천 그룹으로 conversion 할 수 있는 기회를 찾을 수 있지 않을까? </li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Data-Analysis/">Data Analysis</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/Growth-Hacking/">Growth Hacking</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Python - json.loads()와 json.dumps()의 차이</title>

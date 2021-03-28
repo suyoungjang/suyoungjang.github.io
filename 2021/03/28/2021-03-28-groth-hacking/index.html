@@ -1,93 +1,34 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="naver-site-verification" content="ed247daae3e3f7b42aa9ba6139fbf8b755b2266b"><title>고객생애가치(Customer Lifetime Value) - Data Explorer</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Data Explorer"><meta name="msapplication-TileImage" content="/img/chess_board.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Data Explorer"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta description="고객생애가치 (Customer Lifetime Value)란 ?고객이 과거에 회사의 제품을 구매하거나 서비스 이용료로 지불했던 금액 또는 미래 예상 지불 금액을 기반으로 고객의 가치를 정의하는 것입니다. 즉, 단기적으로만 보지 않고 장기적 관점에서 고객의 가치를 평가하는 지표입니다. 왜 중요할까?회사 입장에서는 모든 고객에게 집중할 수 없습니다. 그렇다면"><meta property="og:type" content="blog"><meta property="og:title" content="고객생애가치(Customer Lifetime Value)"><meta property="og:url" content="https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/"><meta property="og:site_name" content="Data Explorer"><meta property="og:description" content="고객생애가치 (Customer Lifetime Value)란 ?고객이 과거에 회사의 제품을 구매하거나 서비스 이용료로 지불했던 금액 또는 미래 예상 지불 금액을 기반으로 고객의 가치를 정의하는 것입니다. 즉, 단기적으로만 보지 않고 장기적 관점에서 고객의 가치를 평가하는 지표입니다. 왜 중요할까?회사 입장에서는 모든 고객에게 집중할 수 없습니다. 그렇다면"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://user-images.githubusercontent.com/35250329/107642142-d0a19f00-6cb7-11eb-9c5b-1ba8b2aa3c47.PNG"><meta property="article:published_time" content="2021-02-11T13:30:00.000Z"><meta property="article:modified_time" content="2021-03-01T10:41:08.237Z"><meta property="article:author" content="suyoung jang"><meta property="article:tag" content="LTV"><meta property="article:tag" content="CLV"><meta property="article:tag" content="마케팅"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://user-images.githubusercontent.com/35250329/107642142-d0a19f00-6cb7-11eb-9c5b-1ba8b2aa3c47.PNG"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/"},"headline":"Data Explorer","image":[],"datePublished":"2021-02-11T13:30:00.000Z","dateModified":"2021-03-01T10:41:08.237Z","author":{"@type":"Person","name":"suyoung jang"},"description":"고객생애가치 (Customer Lifetime Value)란 ?고객이 과거에 회사의 제품을 구매하거나 서비스 이용료로 지불했던 금액 또는 미래 예상 지불 금액을 기반으로 고객의 가치를 정의하는 것입니다. 즉, 단기적으로만 보지 않고 장기적 관점에서 고객의 가치를 평가하는 지표입니다. 왜 중요할까?회사 입장에서는 모든 고객에게 집중할 수 없습니다. 그렇다면"}</script><link rel="canonical" href="https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/"><link rel="icon" href="/img/chess_board.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/rss2.xml" title="Data Explorer" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/chess_board.png" alt="Data Explorer" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-02-11T13:30:00.000Z" title="2021-02-11T13:30:00.000Z">2021-02-11</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-03-01T10:41:08.237Z" title="2021-03-01T10:41:08.237Z">2021-03-01</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Data-Analysis/">Data Analysis</a></span><span class="level-item">6분안에 읽기 (약 966 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">고객생애가치(Customer Lifetime Value)</h1><div class="content"><h3 id="고객생애가치-Customer-Lifetime-Value-란"><a href="#고객생애가치-Customer-Lifetime-Value-란" class="headerlink" title="고객생애가치 (Customer Lifetime Value)란 ?"></a>고객생애가치 (Customer Lifetime Value)란 ?</h3><p>고객이 과거에 회사의 제품을 구매하거나 서비스 이용료로 지불했던 금액 또는 미래 예상 지불 금액을 기반으로 고객의 가치를 정의하는 것입니다. 즉, 단기적으로만 보지 않고 장기적 관점에서 고객의 가치를 평가하는 지표입니다.</p>
-<h3 id="왜-중요할까"><a href="#왜-중요할까" class="headerlink" title="왜 중요할까?"></a>왜 중요할까?</h3><p>회사 입장에서는 모든 고객에게 집중할 수 없습니다. 그렇다면 고객 중에서도 회사 이익에 기여하는 부분이 큰 고객에게 집중하는 것이 비용대비 효율이 좋을 것입니다. </p>
-<p>또한, 가치가 낮은 고객이 있다면 어떻게 하면 충성도를 높여서 가치가 높은 고객으로 전환 시킬지에 대한 아이디어도 얻을 수 있을 것입니다.</p>
-<h3 id="CLV-계산방법"><a href="#CLV-계산방법" class="headerlink" title="CLV 계산방법"></a>CLV 계산방법</h3><p><a target="_blank" rel="noopener" href="https://blog.performars.com/%EA%B5%AC%EB%8F%85%EA%B2%BD%EC%A0%9C-%EB%A7%88%EC%BC%80%ED%8C%85%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B3%A0%EA%B0%9D%EC%83%9D%EC%95%A0%EA%B0%80%EC%B9%98-%ED%99%9C%EC%9A%A9%EB%B2%95">원문</a></p>
-<ul>
-<li><strong>과거이력기반 (Historic)</strong><ul>
-<li>개별 고객이 거래한 과거 구매 총가치 or 총이익의 합계 측정</li>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="naver-site-verification" content="ed247daae3e3f7b42aa9ba6139fbf8b755b2266b"><title>Growth Hacking - 인프런 그로스해킹 1 - Data Explorer</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Data Explorer"><meta name="msapplication-TileImage" content="/img/chess_board.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Data Explorer"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta description="왜 그로스해킹을 공부하게 되었는지?처음엔 그로스해킹이 무엇인지도 몰랐습니다. 업무 중에 유저 리텐션, Funnel 등 유저가 우리 서비스에 인입된 순간부터 이탈할 때까지의 여정을 데이터로 보는 경우가 종종 있었습니다. 이때마다 필요한 개념들을 각각 공부하다보니 이런 것들을 큰 틀에서 다루는 분야는 없을까 궁금했고, 그로스해킹이 그런 분야임을 알게되었습니다."><meta property="og:type" content="blog"><meta property="og:title" content="Growth Hacking - 인프런 그로스해킹 1"><meta property="og:url" content="https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/"><meta property="og:site_name" content="Data Explorer"><meta property="og:description" content="왜 그로스해킹을 공부하게 되었는지?처음엔 그로스해킹이 무엇인지도 몰랐습니다. 업무 중에 유저 리텐션, Funnel 등 유저가 우리 서비스에 인입된 순간부터 이탈할 때까지의 여정을 데이터로 보는 경우가 종종 있었습니다. 이때마다 필요한 개념들을 각각 공부하다보니 이런 것들을 큰 틀에서 다루는 분야는 없을까 궁금했고, 그로스해킹이 그런 분야임을 알게되었습니다."><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://suyoungjang.github.io/img/og_image.png"><meta property="article:published_time" content="2021-03-28T10:40:26.000Z"><meta property="article:modified_time" content="2021-03-28T11:39:43.738Z"><meta property="article:author" content="suyoung jang"><meta property="article:tag" content="Data Analysis"><meta property="article:tag" content="Growth Hacking"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/"},"headline":"Data Explorer","image":["https://suyoungjang.github.io/img/og_image.png"],"datePublished":"2021-03-28T10:40:26.000Z","dateModified":"2021-03-28T11:39:43.738Z","author":{"@type":"Person","name":"suyoung jang"},"description":"왜 그로스해킹을 공부하게 되었는지?처음엔 그로스해킹이 무엇인지도 몰랐습니다. 업무 중에 유저 리텐션, Funnel 등 유저가 우리 서비스에 인입된 순간부터 이탈할 때까지의 여정을 데이터로 보는 경우가 종종 있었습니다. 이때마다 필요한 개념들을 각각 공부하다보니 이런 것들을 큰 틀에서 다루는 분야는 없을까 궁금했고, 그로스해킹이 그런 분야임을 알게되었습니다."}</script><link rel="canonical" href="https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/"><link rel="icon" href="/img/chess_board.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/rss2.xml" title="Data Explorer" type="application/rss+xml">
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/chess_board.png" alt="Data Explorer" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-03-28T10:40:26.000Z" title="2021-03-28T10:40:26.000Z">2021-03-28</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-03-28T11:39:43.738Z" title="2021-03-28T11:39:43.738Z">2021-03-28</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Data-Analysis/">Data Analysis</a></span><span class="level-item">5분안에 읽기 (약 723 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">Growth Hacking - 인프런 그로스해킹 1</h1><div class="content"><h3 id="왜-그로스해킹을-공부하게-되었는지"><a href="#왜-그로스해킹을-공부하게-되었는지" class="headerlink" title="왜 그로스해킹을 공부하게 되었는지?"></a>왜 그로스해킹을 공부하게 되었는지?</h3><p>처음엔 그로스해킹이 무엇인지도 몰랐습니다. 업무 중에 유저 리텐션, Funnel 등 유저가 우리 서비스에 인입된 순간부터 이탈할 때까지의 여정을 데이터로 보는 경우가 종종 있었습니다. 이때마다 필요한 개념들을 각각 공부하다보니 이런 것들을 큰 틀에서 다루는 분야는 없을까 궁금했고, 그로스해킹이 그런 분야임을 알게되었습니다. </p>
+<p>지금 제가 일하고 있는 도메인에서 그로스해킹이 밀접하게 연관이 있다고 볼 수는 없지만 대부분의 앱, 웹 기반 서비스를 제공하는 회사의 경우 이 분야의 지식들을 많이 활용하는 것을 알게 되었고 (분석가 채용 공고등을 통해) 저의 커리어를 위해서도 미리 준비해서 나쁠 것은 없겠다고 생각했습니다. (+ ad-hoc으로 보고 활용했던 개념들 정리) </p>
+<p>그로스해킹에 관련된 지식 외에도 지표 정의 및 활용에 대한 꿀팁들도 상당히 유익했습니다. 이 부분은 데이터 분석을 처음 접하는 분 보다는 실무를 어느정도 해보신 분이 들으면 더 좋을 것 같은 내용이었습니다 ! </p>
+<p>인프런 강의명: <strong>그로스해킹 - 데이터와 실험을 통해 성장하는 서비스를 만드는 방법</strong></p>
+<h3 id="그로스-해킹이란"><a href="#그로스-해킹이란" class="headerlink" title="그로스 해킹이란?"></a>그로스 해킹이란?</h3><ul>
+<li>디자이너, 개발자, 분석가 등 데이터 기반 성장에 유관한 직군의 사람들과 핵심 지표를 중심으로 실험-학습 과정을 반복하면서 제품/서비스 성장시키는 것</li>
+</ul>
+<h3 id="PMF-Product-Market-Fit-그로스-실험의-전제-조건"><a href="#PMF-Product-Market-Fit-그로스-실험의-전제-조건" class="headerlink" title="PMF (Product Market Fit) - 그로스 실험의 전제 조건"></a>PMF (Product Market Fit) - 그로스 실험의 전제 조건</h3><ul>
+<li>고객 접점없는 제품, 서비스 개발은 성공하기 어려움</li>
+<li>타겟하는 시장에서 우리 제품, 서비스를 활용하면 어떤 문제를 해결할 수 있는지?<br>또한, 이 문제가 꼭 해결해야 할 가치가 있는 문제인지 확인이 필요</li>
+</ul>
+<h3 id="PMF-를-확인을-위한-지표"><a href="#PMF-를-확인을-위한-지표" class="headerlink" title="PMF 를 확인을 위한 지표"></a>PMF 를 확인을 위한 지표</h3><ul>
+<li>Retention<ul>
+<li>시간이 지남에 따라 리텐션이 안정적으로 유지되는가?</li>
+</ul>
+</li>
+<li>Conversion<ul>
+<li>주요 이벤트 전환율 (e.g 가입, 결제) 추이</li>
+</ul>
+</li>
+<li>NPS<ul>
+<li>제품/서비스 적극적 추천 그룹과 비추천 그룹간 비율로 계산된 지표</li>
+<li>추천 의향을 점수로 물어보는 질문 외에 어떤 이유로 그런 점수를 줬는지 알 수 있는 설문들을 추가한다면 비추천 그룹 -&gt; 소극적 추천 그룹 or 소극적 추천 그룹 -&gt; 적극적 추천 그룹으로 conversion 할 수 있는 기회를 찾을 수 있지 않을까? </li>
 </ul>
 </li>
 </ul>
-<blockquote>
-<p>CLV(Historic) = (거래1 + 거래2 + 거래 3… + 거래 n) * 평균마진</p>
-</blockquote>
-<ul>
-<li><strong>예측기반 (Predictive)</strong><ul>
-<li>과거이력기반보다 더 많은 데이터를 사용하기 때문에 고객 생애주기 동안 회사에 제공할 총 가치를 나타내는 데 좋은 지표가 될 수 있음</li>
-<li>가격, 할인 등의 변동을 고려할 때 정확한 예측을 결정하는 것은 어려울 수 있음</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>CLV(Predictive) = ((월 평균 거래횟수 * 평균구매금액) * 평균 총마진) * 평균고객수명</p>
-</blockquote>
-<ul>
-<li><p><strong>고객수명기반 (Lifespan)</strong></p>
-<ul>
-<li>고객가치와 고객 수명을 가지고 계산하는 방법</li>
-<li>평균구매가치<ul>
-<li>일정 기간 동안의 총 매출을 같은 기간 동안 발생한 구매 횟수로 나누기</li>
-<li>총 매출 / 총 구매 횟수</li>
-</ul>
-</li>
-<li>평균구매빈도<ul>
-<li>위의 구매 횟수를 해당 기간 동안 구매한 고객수로 나누기</li>
-<li>총 구매 횟수 / 총 구매 고객수</li>
-</ul>
-</li>
-<li>평균고객가치<ul>
-<li>평균구매가치 * 평균구매빈도</li>
-</ul>
-</li>
-<li>평균고객수명<ul>
-<li>고객들이 계속 구매하는 년 수의 평균값 계산</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>CLV(Lifespan) = 평균고객가치 * 평균고객수명</p>
-</blockquote>
-</li>
-<li><p><strong>동질집단기반 (Cohort)</strong></p>
-<ul>
-<li>유사한 특성을 가진 고객을 수집하고 그룹화함</li>
-<li>여러 유형의 고객들 사이에서 결론을 도출하는데 유용함</li>
-<li><img src="https://user-images.githubusercontent.com/35250329/107642142-d0a19f00-6cb7-11eb-9c5b-1ba8b2aa3c47.PNG" alt="cohort"></li>
-</ul>
-</li>
-<li><p><strong>개인화기반 (Individual)</strong></p>
-<ul>
-<li><p>개인화된 CLV는 마케팅의 더 넓은 관점을 고려하는데 유용</p>
-</li>
-<li><p>이 CLV를 통해 어떤 마케팅 채널이 효율적인지, 누구를 타켓팅 해야하는지 등의 인사이트를 얻을 수 있음</p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="CLV-인사이트"><a href="#CLV-인사이트" class="headerlink" title="CLV 인사이트"></a>CLV 인사이트</h3><p><a target="_blank" rel="noopener" href="https://www.andrewahn.co/marketing/customer-lifetime-value/">원문</a></p>
-<ul>
-<li>마케팅 활동을 통해 유치한 고객은 일반 고객들보다 CLV가 낮다<ul>
-<li>마케팅 활동에 비용이 들어갔기 때문에 같은 질의 고객이어도 CLV가 낮음</li>
-<li>마케팅 활동을 통해 수요가 창출된 고객은 고객 이탈율이 상대적으로 높음 <ul>
-<li>e.g) 사은품으로 유입된 고객</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>제품 구입 빈도가 CLV에 가장 큰 영향을 끼친다<ul>
-<li>제품 하나를 더 사게 하는 전략이 비싼 제품을 구입하게 하는 것보다 CLV 증가에 큰 효과가 있음</li>
-</ul>
-</li>
-<li>같은 제품이라도 제품의 포지셔닝에 따라 CLV가 다르다<ul>
-<li>고객의 의도에 맞게 마케팅을 하면 제품을 바꾸지 않고도 CLV를 바꿀 수 있음</li>
-</ul>
-</li>
-</ul>
-</div><div class="article-licensing box"><div class="licensing-title"><p>고객생애가치(Customer Lifetime Value)</p><p><a href="https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/">https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>suyoung jang</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2021-02-11</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-03-01</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/LTV/">LTV</a><a class="link-muted mr-2" rel="tag" href="/tags/CLV/">CLV</a><a class="link-muted mr-2" rel="tag" href="/tags/%EB%A7%88%EC%BC%80%ED%8C%85/">마케팅</a></div><div class="sharethis-inline-share-buttons"></div><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2021/03/01/2021-03-01-algorithm-adjacent-element-check/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">TIL - Algorithm - adjacent element</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/02/07/%EC%A3%BC%EC%86%8C%EC%A2%8C%ED%91%9C%EB%B3%80%ED%99%98/"><span class="level-item">카카오 맵 API를 활용한 좌표 &lt;-&gt; 주소 변환</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
-            this.page.url = 'https://suyoungjang.github.io/2021/02/11/customer-lifetime-value/';
-            this.page.identifier = '2021/02/11/customer-lifetime-value/';
+</div><div class="article-licensing box"><div class="licensing-title"><p>Growth Hacking - 인프런 그로스해킹 1</p><p><a href="https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/">https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>suyoung jang</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2021-03-28</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-03-28</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Data-Analysis/">Data Analysis</a><a class="link-muted mr-2" rel="tag" href="/tags/Growth-Hacking/">Growth Hacking</a></div><div class="sharethis-inline-share-buttons"></div><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/03/24/2021-03-24-json-load-dump/"><span class="level-item">Python - json.loads()와 json.dumps()의 차이</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/';
+            this.page.identifier = '2021/03/28/2021-03-28-groth-hacking/';
         };
         (function() {
             var d = document, s = d.createElement('script');  
