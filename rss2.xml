@@ -9,13 +9,42 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Sun, 28 Mar 2021 11:39:43 GMT</pubDate>
+    <pubDate>Sun, 04 Apr 2021 14:43:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>Growth Hacking - 인프런 그로스해킹 2</title>
+      <link>https://suyoungjang.github.io/2021/04/04/2021-04-04-growth-hacking-2/</link>
+      <guid>https://suyoungjang.github.io/2021/04/04/2021-04-04-growth-hacking-2/</guid>
+      <pubDate>Sun, 04 Apr 2021 13:29:48 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;strong&gt;출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법&lt;/strong&gt; &lt;/p&gt;
+&lt;h3 id=&quot;Growth-Hacking-1-포스팅에서-다룬-내용&quot;&gt;&lt;a href=&quot;#Growth-Hacking-1-포스팅에</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong>출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법</strong> </p><h3 id="Growth-Hacking-1-포스팅에서-다룬-내용"><a href="#Growth-Hacking-1-포스팅에서-다룬-내용" class="headerlink" title="Growth Hacking 1 포스팅에서 다룬 내용"></a>Growth Hacking 1 포스팅에서 다룬 내용</h3><ul><li>그로스 해킹이란?</li><li>PMF (Product Market Fit)</li></ul><h2 id="지표-관리-방법"><a href="#지표-관리-방법" class="headerlink" title="지표 관리 방법"></a>지표 관리 방법</h2><p>지난 포스팅에서 다뤘던 것 처럼 그로스 해킹은 <strong>핵심 지표</strong>를 찾고, 그 <strong>지표를 성장시키는 방법</strong>을 찾는 활동입니다. 지표를 관리하는 방법은 두 가지가 있는데, 과업 기반(Task-based)와 프레임워크 기반(Framework-based)입니다. 이 부분을 읽고 지금 일하고 있는 회사에서도 주로 과업 기반의 지표를 관리하고 있었다는 것을 알게되었습니다. 되돌아보면 지금까지는 새로운 서비스 런칭이나 프로덕트의 새로운 기능이 나오면 그것과 관련된 지표만 생각하는 경향이 강했던 것 같은데 조금 더 큰 그림에서 생각해보는 노력을 해야겠습니다.</p><h4 id="과업-기반-지표-관리"><a href="#과업-기반-지표-관리" class="headerlink" title="과업 기반 지표 관리"></a>과업 기반 지표 관리</h4><ul><li>부서별 담당업무를 정의하고, 해당 업무를 하면서 생기는 숫자를 지표로 관리</li></ul><h4 id="프레임워크-기반-지표-관리"><a href="#프레임워크-기반-지표-관리" class="headerlink" title="프레임워크 기반 지표 관리"></a>프레임워크 기반 지표 관리</h4><ul><li>서비스 이용흐름에 따른 핵심 퍼널과 지표 정의, 지표 개선을 위한 과업 수행</li></ul><h4 id="효율적인-지표-관리"><a href="#효율적인-지표-관리" class="headerlink" title="효율적인 지표 관리"></a>효율적인 지표 관리</h4><ul><li>어떤 지표가 중요한지 먼저 정의하고 이 지표를 관리하고 개선하기 위해서 어떤 task를 해야하는지 나와야 함</li></ul><h2 id="AARRR"><a href="#AARRR" class="headerlink" title="AARRR"></a>AARRR</h2><ul><li>(Acquisition) 고객 유치</li><li>(Activation) 활성화</li><li>(Retention) 리텐션</li><li>(Revenue) 수익화</li><li>(Referral) 추천</li></ul><p>AARRR이 각각 어떤 것이고 주로 어떤 지표를 본다 &lt;- 라는 설명은 구글링을 통해서 이미 많이 접했었습니다. 제가 더 궁금했던 내용은 실제로 AARRR 프레임워크 기반의 업무를 진행할 때, 각 단계별로 풀어야 하는 문제들은 무엇인지, 측정된 지표 자체가 가지는 의미는 무엇인지 등이었는데 다행히 강의에서 이런 궁금증을 잘 해소시켜 주었습니다.</p><h3 id="Acquisition"><a href="#Acquisition" class="headerlink" title="Acquisition"></a>Acquisition</h3><h4 id="사용자-구분"><a href="#사용자-구분" class="headerlink" title="사용자 구분"></a>사용자 구분</h4><ul><li>자발적으로 우리 서비스를 찾아오는 고객 (Organic)<ul><li>어떻게 하면 자발적 유입을 늘릴지?</li></ul></li><li>마케팅 활동으로 인해 우리 서비스를 찾아온 고객 (Paid)<ul><li>어떻게 하면 마케팅 채널을 효율적으로 사용할지?</li></ul></li></ul><h4 id="Acquisition-관련-기본-지표"><a href="#Acquisition-관련-기본-지표" class="headerlink" title="Acquisition 관련 기본 지표"></a>Acquisition 관련 기본 지표</h4><ul><li><p>유저 획득 지표</p></li><li><p>광고 집행 관련 지표</p></li></ul><p><strong>Acquisition 핵심 CAC &lt; LTV</strong></p><ul><li>유저 획득 비용보다 유저생애기간동안 회사에 기여하는 매출이 많아야 함</li><li>회사의 생존이 걸려있는 수식<ul><li><strong>어떤 지표가 Controllable한가?</strong></li></ul></li></ul><p><strong>UTM parameter</strong></p><ul><li><p>Urchin Tracking Module의 약자 </p></li><li><p>url에 파라미터를 달아서 이사람이 어떤 경로를 통해 들어왔는지 track </p></li><li><p>example</p><ul><li><p>링크 URL + ? </p><ul><li>utm_source: 어디에서 왔니?</li><li>utm_medium: 어떤 유형의 링크인가?</li><li>utm_campaign: 어떤 캠페인을 통해서 왔나?</li><li>utm_term: 어떤 키워드로 검색해서 왔나?</li><li>utm_content: 어떤 내용을 보고 왔나?</li></ul></li></ul></li></ul><h3 id="모바일-앱-어트리뷰션"><a href="#모바일-앱-어트리뷰션" class="headerlink" title="모바일 앱 어트리뷰션"></a>모바일 앱 어트리뷰션</h3><p>어트리뷰션은 유저가 앱을 설치, 실행, 사용하는데 어떤 채널이 기여했는지 파악함으로써 모바일앱 마케팅 성과를 판단하기 위해 활용되는 개념입니다.</p><p>표준화가 되어 있지 않기 때문에 각 서비스에 맞는 어트리뷰션 기준을 세워서 활용하는 것이 중요하다고 하는데, 지금까지의 경험상 이런 전사가 합의하는 기준을 제대로 잡는 것이 생각보다 쉽지 않다는 것을 일찍이 깨달았기 때문에 집중해서 보았던 파트입니다.</p><h4 id="어트리뷰션-윈도우"><a href="#어트리뷰션-윈도우" class="headerlink" title="어트리뷰션 윈도우"></a>어트리뷰션 윈도우</h4><ul><li>어느 기간동안의 어트리뷰션을 인정할 것인가?<ul><li><pre><code>광고 클릭하고 n일이내 설치?</code></pre></li></ul></li><li>클릭과 뷰 어떤 행동을 어트리뷰션으로 인정할 것인가?</li><li>여러 건의 어트리뷰션 터치포인트가 있는 경우, 종합적인 판단은?</li></ul><p>이 부분에 대한 강의에서 가장 좋았던 부분은 섣부르게 어떤 하나의 기준을 전체에 적용하는 것은 위험하다는 것입니다. 기준을 위한 기준보다는 채널, 노출 크기, 지면, 알고리즘, 사용자 층 등 다양한 측면을 고려해야 한다고 말합니다.</p><h3 id="딥링크"><a href="#딥링크" class="headerlink" title="딥링크"></a>딥링크</h3><ul><li>앱 안의 특정 화면으로 이동하는 링크</li><li>디퍼드 딥링크 - 딥링크의 실행을 앱 설치 이후로 지연</li></ul><h4 id="어트리뷰션-관련해서-고려해야-할-이슈들"><a href="#어트리뷰션-관련해서-고려해야-할-이슈들" class="headerlink" title="어트리뷰션 관련해서 고려해야 할 이슈들"></a>어트리뷰션 관련해서 고려해야 할 이슈들</h4><ul><li>이 부분이 정말~~정말 좋았는데, 실제로 강사분이 업무하면서 어떤 문제들에 부딪혔고 고민했는지를 엿볼수 있었기 때문입니다. 이쪽 도메인에 대한 경험이 없는 저로서는 간접적으로나마 어떤 문제들을 해결해야 하는지 등을 보고 미리 고민해볼 수 있어서 좋았습니다.<br>(이 부분에 대한 내용이 궁금하다면 인프런 그로스 해킹 강의로)</li></ul><p>다음 포스팅에서는 Activation에 대해서 정리하겠습니다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Data-Analysis/">Data Analysis</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/Growth-Hacking/">Growth Hacking</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/04/04/2021-04-04-growth-hacking-2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Growth Hacking - 인프런 그로스해킹 1</title>
-      <link>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/</link>
-      <guid>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/</guid>
+      <link>https://suyoungjang.github.io/2021/03/28/2021-03-28-growth-hacking/</link>
+      <guid>https://suyoungjang.github.io/2021/03/28/2021-03-28-growth-hacking/</guid>
       <pubDate>Sun, 28 Mar 2021 10:40:26 GMT</pubDate>
       
         
@@ -36,7 +65,7 @@
       <category domain="https://suyoungjang.github.io/tags/Growth-Hacking/">Growth Hacking</category>
       
       
-      <comments>https://suyoungjang.github.io/2021/03/28/2021-03-28-groth-hacking/#disqus_thread</comments>
+      <comments>https://suyoungjang.github.io/2021/03/28/2021-03-28-growth-hacking/#disqus_thread</comments>
       
     </item>
     
