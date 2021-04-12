@@ -9,8 +9,37 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Sun, 04 Apr 2021 14:43:03 GMT</pubDate>
+    <pubDate>Mon, 12 Apr 2021 13:51:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Growth Hacking - 인프런 그로스해킹 3</title>
+      <link>https://suyoungjang.github.io/2021/04/12/2021-04-12-growth-hacking-3/</link>
+      <guid>https://suyoungjang.github.io/2021/04/12/2021-04-12-growth-hacking-3/</guid>
+      <pubDate>Mon, 12 Apr 2021 13:00:42 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;strong&gt;출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법&lt;/strong&gt; &lt;/p&gt;
+&lt;h3 id=&quot;Growth-Hacking-2-포스팅에서-다룬-내용&quot;&gt;&lt;a href=&quot;#Growth-Hacking-2-포스팅에</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong>출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법</strong> </p><h3 id="Growth-Hacking-2-포스팅에서-다룬-내용"><a href="#Growth-Hacking-2-포스팅에서-다룬-내용" class="headerlink" title="Growth Hacking 2 포스팅에서 다룬 내용"></a>Growth Hacking 2 포스팅에서 다룬 내용</h3><ul><li>지표 관리 방법</li><li>AARRR 중 Acquisition</li></ul><h2 id="Activation"><a href="#Activation" class="headerlink" title="Activation"></a>Activation</h2><ul><li>앞 단계인 Acquisition을 통해 데려온 사용자가 우리 서비스의 핵심 가치를 경험했는가?</li><li>사용자의 서비스 경험을 단계별로 도식화 (Funnel)<ul><li>단계별 전환율 측정 및 분석</li></ul></li></ul><p>제가 느꼈을 때, 강의 전반적으로 계속 강조하고 있는 부분은 측정 기준을 어떻게 정했는지? 그리고 데이터를 의미있는 그룹으로 쪼개서 분석하고 있는지? 입니다. 저 또한 분석 실무를 하면서 중요하다고 느꼈던 부분입니다.</p><h3 id="Funnel-분석"><a href="#Funnel-분석" class="headerlink" title="Funnel 분석"></a>Funnel 분석</h3><ul><li>Cohort에 따른 차이와 그 원인을 파악하는 게 핵심</li><li>마지막에 conversion한 사용자와 그렇지 않은 사용자를 가지고 앞 단계의 action data를 살펴보고 이탈 원인을 유추</li></ul><h2 id="Retention"><a href="#Retention" class="headerlink" title="Retention"></a>Retention</h2><ul><li>서비스를 경험한 사용자가 플랫폼에 남아있는가? (잔존 or 이탈)</li><li>Activation 과정을 통해 서비스에 대한 긍정적인 느낌을 계속 경험시켜주는 것  </li><li>Funnel 분석과 마찬가지로 Cohort를 쪼개서 차이를 보는 게 핵심</li></ul><p>Retention을 계산하는 여러가지 방법이 있고, 각 방법마다 장점, 단점이 있습니다. 문득 여러 회사 채용 공고에서 본 <code>AARRR에 대한 높은 이해</code>  문구가 떠올랐는데 이 문구가 의미하는 바가 단순히 AARRR이 이런거고 이런 지표들을 봐요~ 이게 아니라 지표가 의미하는 바를 알고 단계별로 각 서비스에 맞는 지표를 정의하고 관리하는 일련의 업무들을 잘 할 수 있는 사람일 거라고 생각합니다.</p><h3 id="Retention-개선하기"><a href="#Retention-개선하기" class="headerlink" title="Retention 개선하기"></a>Retention 개선하기</h3><ul><li>시점에 따른 접근<ul><li>초기에 떨어지는 속도 늦추기</li><li>오랜 기간 유지시키기</li></ul></li><li>리텐션은 장기간 관찰해야 하는 지표 <ul><li>어떤 action (금전적인 혜택을 주는 프로모션과 같은..) 으로 일시적인 상승은 가능할 수 있으나 장기적인 관점에서 유지하고 늘릴 수 있는 방법을 고민해야 함</li></ul></li><li>서비스 카테고리마다 권장되는 리텐션 수준이 다름<ul><li>목표 리텐션 수준 잘 정의하기 </li></ul></li></ul><h2 id="Revenue"><a href="#Revenue" class="headerlink" title="Revenue"></a>Revenue</h2><ul><li>사업의 성패를 가르는 건 어떤 BM을 가지고 있으며 그게 잘 동작하는지?</li><li>아무리 사용자가 서비스에 대한 평가를 잘 해줘도 이 평가가 매출에 반영되지 않으면 의미가 없음</li></ul><p>ARPU, ARPPU, ASP 등 수익성을 보는 다양한 지표들이 있으며 마찬가지로 각 지표들의 기준을 서비스에 맞게 잘 정의하는 것이 중요합니다.</p><h3 id="LTV-Lifetime-Value"><a href="#LTV-Lifetime-Value" class="headerlink" title="LTV (Lifetime Value)"></a>LTV (Lifetime Value)</h3><ul><li>한 명의 고객이 진입부터 이탈까지 전체 활동기간 동안 누적해서 발생시키는 기대수익</li><li>현실에서는 LTV 계산 공식에 맞는 인자들을 넣기 어려움<ul><li>차선으로 LTR (Lifetime Revenue) 사용가능</li><li>계산이 어려운 Cost 말고 고객이 lifetime으로 결제한 매출의 평균 합계액 계산</li></ul></li></ul><h2 id="Referral"><a href="#Referral" class="headerlink" title="Referral"></a>Referral</h2><ul><li>Organic 유입의 한 단계. 기존 사용자의 추천, 입소문을 통한 사용자 확대</li><li>Viral Coefficient<ul><li>User * invation rate * invitations sent per user * conversion rate / User</li></ul></li><li>Viral Coefficient가 말해주지 않는 것<ul><li>초대 주기</li><li>Saturate 수준<ul><li>target하는 시장에서 얼마나 saturate 되었는지에 대한 정보 없음</li><li>초대 받을 수 있는 사람은 한정적</li></ul></li><li>전반적인 User 경험</li></ul></li></ul><p>다른 단계보다 중요도가 상대적으로 떨어지는 느낌이고 좋은 제품, 서비스가 우선!</p><p>다음 포스팅에서는 강의 마지막 내용인 지표 활용에 대한 내용을 정리하겠습니다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Data-Analysis/">Data Analysis</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/Growth-Hacking/">Growth Hacking</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/04/12/2021-04-12-growth-hacking-3/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Growth Hacking - 인프런 그로스해킹 2</title>
