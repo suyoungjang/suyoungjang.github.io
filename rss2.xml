@@ -9,8 +9,37 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Mon, 12 Apr 2021 13:51:31 GMT</pubDate>
+    <pubDate>Tue, 13 Apr 2021 12:55:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Growth Hacking - 인프런 그로스해킹 4</title>
+      <link>https://suyoungjang.github.io/2021/04/13/2021-04-13-growth-hacking-4/</link>
+      <guid>https://suyoungjang.github.io/2021/04/13/2021-04-13-growth-hacking-4/</guid>
+      <pubDate>Tue, 13 Apr 2021 12:32:08 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;strong&gt;출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법&lt;/strong&gt; &lt;/p&gt;
+&lt;h3 id=&quot;Growth-Hacking-3-포스팅에서-다룬-내용&quot;&gt;&lt;a href=&quot;#Growth-Hacking-3-포스팅에</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong>출처 - (인프런) 그로스해킹 데이터와 실험을 통해 성장하는 서비스를 만드는 방법</strong> </p><h3 id="Growth-Hacking-3-포스팅에서-다룬-내용"><a href="#Growth-Hacking-3-포스팅에서-다룬-내용" class="headerlink" title="Growth Hacking 3 포스팅에서 다룬 내용"></a>Growth Hacking 3 포스팅에서 다룬 내용</h3><ul><li>AARRR 중 Acquisition을 제외한 나머지 </li></ul><h2 id="지표-활용"><a href="#지표-활용" class="headerlink" title="지표 활용"></a>지표 활용</h2><ul><li>지표의 속성 이해</li><li>지표를 명확하게 정의</li><li>선행지표 탐색</li><li>지표간의 관계를 통한 인사이트 찾기</li></ul><p>특히 실무를 하면서 지표 속성 이해와 정의 부분은 데이터 분석가만 알아야 하는 것이 아니라 지표를 활용하는 모두가 같은 이해도를 가져야 하는 것이 중요함을 느꼈습니다. 지표 정의 과정에서 지표를 활용할 사람들과 논의하여 합의를 이루고 기준이 확정된 이후 교육 등을 통해 지표로 인한 미스 커뮤니케이션 방지 노력이 필요하다고 생각합니다.</p><h2 id="잘못된-지표-활용"><a href="#잘못된-지표-활용" class="headerlink" title="잘못된 지표 활용"></a>잘못된 지표 활용</h2><ul><li>허무지표<ul><li>쉽게 변화시킬 수 있으며 실제로 중요한 숫자와 크게 상관이 없음</li></ul></li></ul><h2 id="OMTM"><a href="#OMTM" class="headerlink" title="OMTM"></a>OMTM</h2><ul><li>모든 지표를 관리하는 건 리소스 낭비</li><li>지표간 우선순위가 명확하지 않으면 서비스 방향을 directing 할 수 없음</li><li>즉, 성장을 위해 우리가 꼭 집중해야 하는 하나의 지표 </li><li>Actionable하지 않은 지표가 OMTM이 되어서는 안 됨 (e.g 매출과 같은 후행지표) </li></ul><p>강의 마지막에 A/B 테스트에 대한 내용도 있지만 이 포스팅에 같이 녹이는 것이 조금 아쉬워서 다른 자료들을 같이 참고해서 따로 포스팅하려고 합니다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/Data-Analysis/">Data Analysis</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Data-Analysis/">Data Analysis</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/Growth-Hacking/">Growth Hacking</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/04/13/2021-04-13-growth-hacking-4/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Growth Hacking - 인프런 그로스해킹 3</title>
