@@ -9,8 +9,39 @@
     <atom:link href="https://suyoungjang.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>기억 잡아두는 장소</description>
-    <pubDate>Tue, 13 Apr 2021 12:55:36 GMT</pubDate>
+    <pubDate>Sat, 17 Apr 2021 11:42:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL - Python itertools groupby 활용</title>
+      <link>https://suyoungjang.github.io/2021/04/17/2021-04-17-TIL-python/</link>
+      <guid>https://suyoungjang.github.io/2021/04/17/2021-04-17-TIL-python/</guid>
+      <pubDate>Sat, 17 Apr 2021 11:27:03 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;CodeSignal이라는 알고리즘 문제 풀이 사이트에서 문제에서 정해준 규칙으로 문자열을 변경하는 Line Encoding이라는 문제를 푸는데..&lt;/p&gt;
+&lt;p&gt;규칙은 아래와 같았습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, the string is</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>CodeSignal이라는 알고리즘 문제 풀이 사이트에서 문제에서 정해준 규칙으로 문자열을 변경하는 Line Encoding이라는 문제를 푸는데..</p><p>규칙은 아래와 같았습니다.</p><ul><li>First, the string is divided into the least possible number of disjoint substrings consisting of identical characters<ul><li>for example, <code>&quot;aabbbc&quot;</code> is divided into <code>[&quot;aa&quot;, &quot;bbb&quot;, &quot;c&quot;]</code></li></ul></li><li>Next, each substring with length greater than one is replaced with a concatenation of its length and the repeating character<ul><li>for example, <em>substring</em> <code>&quot;bbb&quot;</code> is replaced by <code>&quot;3b&quot;</code></li></ul></li><li>Finally, all the new strings are concatenated together in the same order and a new string is returned.</li></ul><p>예시</p><p>For <code>s = &quot;aabbbc&quot;</code>, the output should be<br><code>lineEncoding(s) = &quot;2a3bc&quot;</code>.</p><p>조금 무식하게 풀긴 풀었는데.. 풀고나서 다른 문제풀이들을 보니 itertools 모듈의 groupby를 활용해서 간단하게 푸는 것을 볼 수 있었습니다.</p><p>‘aabbbc’라는 문자열이 있을 때 아래와 같이 활용 가능합니다.</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> itertools <span class="keyword">import</span> groupby</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> k, g <span class="keyword">in</span> groupby(input_string): </span><br><span class="line">    print(k, <span class="built_in">list</span>(g), <span class="built_in">len</span>((<span class="built_in">list</span>(g))))</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#39;a&#39; [&#39;a&#39;, &#39;a&#39;] 2</span><br><span class="line">&#39;b&#39; [&#39;b&#39;, &#39;b&#39;, &#39;b&#39;] 3</span><br><span class="line">&#39;c&#39; [&#39;c&#39;] 1</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="https://suyoungjang.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://suyoungjang.github.io/tags/Python/">Python</category>
+      
+      <category domain="https://suyoungjang.github.io/tags/Algorithm/">Algorithm</category>
+      
+      
+      <comments>https://suyoungjang.github.io/2021/04/17/2021-04-17-TIL-python/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Growth Hacking - 인프런 그로스해킹 4</title>
